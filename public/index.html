@@ -1,24 +1,182 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Millcreek Anesthesia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 
-<script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyA3chVA_xgCjIrhKR6pNNgAjSFk_h98CIM",
-    authDomain: "millcreek-anesthesia.firebaseapp.com",
-    databaseURL: "https://millcreek-anesthesia.firebaseio.com",
-    projectId: "millcreek-anesthesia",
-    storageBucket: "",
-    messagingSenderId: "964935008733"
-  };
-  firebase.initializeApp(config);
-</script>
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyA3chVA_xgCjIrhKR6pNNgAjSFk_h98CIM",
+      authDomain: "millcreek-anesthesia.firebaseapp.com",
+      databaseURL: "https://millcreek-anesthesia.firebaseio.com",
+      projectId: "millcreek-anesthesia",
+      storageBucket: "",
+      messagingSenderId: "964935008733"
+    };
+    firebase.initializeApp(config);
+  </script>
 
 </head>
-<body>
-heelo world
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand" href="#">Millcreek Anesthesia</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#expect">What To Expect</a></li>
+          <li><a href="#billing">Billing</a></li>
+          <li><a href="#">Physician Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron">
+        <h1>Millcreek Anesthesia</h1>
+        <p>Millcreek Anesthesia Physician Anesthesiologists provide inpatient,
+    outpatient, obstetrical and office based anesthesia services at St. Mark's
+    Hospital, St. Mark’s Outpatient Surgery Center and Lone Peak Hospital.
+    We are committed to providing a positive surgical and obstetric experience
+    with the highest quality anesthetic care.</p>
+  </div>
+  <div class="container">  
+    <div class="container-fluid bg-grey" id="about">
+      <h1>About Millcreek Anesthesia</h1>
+      <div class="col-sm-4">
+          <img class="img-responsive" src="images/millcreeklogo.png">
+        </div>
+        <div class="col-sm-8">
+          <p>Millcreek Anesthesia was founded in 1991 by a group of eight Physician
+          Anesthesiologists who had been practicing together at St. Mark's Hospital.
+          </p>
+
+          <p>Millcreek Anesthesia remains an all physician group that has now grown to
+          include thirty-two Board Certified or Board Eligible Anesthesiologists. We
+          have a long history of being the exclusive providers of quality anesthetic care
+          at St. Mark's Hospital, St Mark’s Outpatient Surgery Center and Lone Peak
+          Hospital in partnership with your surgeon, obstetrician or care provider.</p>
+        </div> 
+    
+    </div>  
+
+    <div class="container-fluid" id="expect">
+      <h1>What To Expect</h1>
+      <p>There are three main types of anesthetics that may be administered by your
+anesthesiologist for your surgery.</p>
+      <h3>Monitored Anesthetic Care</h3>
+      <p>You will be given intravenous sedation and pain medicine to help you feel
+relaxed and reduce pain. Your surgeon will then administer an injection of
+numbing medicine to block pain in the local area of your surgery. Although
+you are not completely asleep, it is likely you will not remember the surgery.</p>
+
+      <p>Your anesthesiologist will remain with you and continuously monitor your
+status to ensure your comfort and safety.</p>
+
+      <h3>Regional Anesthesia</h3>
+      <p>An injection of numbing medicine is administered by your anesthesiologist to
+block nerves. This may include blocking the nerves to an extremity or a
+larger area. An epidural block for childbirth is another example of a regional
+anesthetic. Regional anesthesia may also be combined with sedation or a
+general anesthetic. This type of anesthetic is also used to provide pain
+control after the surgery when long lasting medications are used or a
+catheter is left in place after the surgery.</p>
+      
+      <h3>General Anesthesia</h3>
+      <p>You are completely unconscious and asleep for the surgery.</p>
+      
+      <h3>At Home</h3>
+      <p>You will be asked to fast before your surgery so your stomach is empty when
+your anesthetic is administered. Frequently, you will be asked to have
+nothing to eat or drink starting at midnight on the day of your surgery. Even
+if your surgery is scheduled for later in the day, please follow the fasting
+instructions you receive at your pre-op visit as your actual surgery time may
+change.</p>
+      
+      <h3>At St. Mark's Hospital</h3>
+      <p>You will be transported from Ambulatory Care to the Operating Room in a
+hospital bed or stretcher. You will meet your anesthesiologist in the Pre-
+operative Holding Area. We will ask you questions about your medical,
+anesthetic and surgical histories. We will discuss your specific anesthetic plan
+and answer all questions you may have. You will also meet your Operating
+Room nurse and have the opportunity to speak with your surgeon or their
+assistant before you are transported to the operating room.</p>
+
+      <p>Please see the following link to the American Society of Anesthesiologists
+website for more information about Anesthesiologists and anesthesia.</p>
+
+      <p>
+        <a href="http://www.LifelineToModernMedicine.com/">http://www.LifelineToModernMedicine.com/</a>
+      </p>
+
+    </div>  
+
+    <div class="container-fluid" id="billing">
+      <h1>Billing Contact</h1>
+      <div class="col-sm-8">
+        <p>
+          abeo<br>
+          150 Civic Center Drive<br>
+          Suite 200<br>
+          Sandy, UT 84070<br>
+          (801) 727-2059<br>
+          abeo.com
+        </p>
+        <p>
+          Pay your bill online <a href="https://anesthesiabilling.ixt.com">click here</a>
+        </p>
+      </div>
+      <div class="col-sm-4">
+        <img class="img-responsive" src="images/tree.png">
+      </div>
+    </div>
+    
+    <footer class="container-fluid text-center">
+      <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+    </footer>
+
+  </div>
+
+  <script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links in navbar + footer link
+    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== ""){
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+     
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  })
+  </script>
 </body>
 </html>

@@ -1,0 +1,21 @@
+{
+  "name": "millcreek",
+  "version": "1.0.0",
+  "description": "MillcreekAnesthesia.com",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MNovak12/millcreek-anesthesia.git"
+  },
+  "author": "Marissa Novak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MNovak12/millcreek-anesthesia/issues"
+  },
+  "homepage": "https://github.com/MNovak12/millcreek-anesthesia#readme"
+}
