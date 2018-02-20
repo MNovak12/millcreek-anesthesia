@@ -10,12 +10,12 @@
 }
 
 .bg-grey {
-  background-color: #f6f6f6;
+  background-color: lightgrey;
 }
 
 .navbar {
   margin-bottom: 0;
-  background-color: olive;
+  background-color: #00000075;
   background-image: "images/tree.png"
   z-index: 9999;
   border: 0;
@@ -44,10 +44,43 @@ a {
   color: olive
 }
 
+body, html {
+    height: 100%;
+}
+
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
+}
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("images/tree.png");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #000000;
+
 }
 
 h2 {
