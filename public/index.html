@@ -53,69 +53,75 @@
   </div>
   <div class="container"> 
 
-    <div class="container-fluid bg-grey" id="about">
+    <div class="container-fluid" id="about">
       <h1>About Millcreek Anesthesia</h1>
       <div class="col-sm-4">
-          <img class="img-responsive" src="images/millcreeklogo.png">
-        </div>
-        <div class="col-sm-8">
-          <p>Millcreek Anesthesia was founded in 1991 by a group of eight Physician
+        <img class="img-responsive" src="images/millcreeklogo.png">
+      </div>
+      <div class="col-sm-8">
+        <p>Millcreek Anesthesia was founded in 1991 by a group of eight Physician
           Anesthesiologists who had been practicing together at St. Mark's Hospital.
-          </p>
+        </p>
 
-          <p>Millcreek Anesthesia remains an all physician group that has now grown to
+        <p>Millcreek Anesthesia remains an all physician group that has now grown to
           include thirty-two Board Certified or Board Eligible Anesthesiologists. We
           have a long history of being the exclusive providers of quality anesthetic care
           at St. Mark's Hospital, St Mark’s Outpatient Surgery Center and Lone Peak
-          Hospital in partnership with your surgeon, obstetrician or care provider.</p>
-        </div> 
-    
+        Hospital in partnership with your surgeon, obstetrician or care provider.</p>
+      </div> 
+
     </div>  
 
-    <div class="container-fluid" id="expect">
+    <div class="container-fluid bg-grey" id="expect">
       <h1>What To Expect</h1>
       <p>There are three main types of anesthetics that may be administered by your
-anesthesiologist for your surgery.</p>
-      <h3>Monitored Anesthetic Care</h3>
-      <p>You will be given intravenous sedation and pain medicine to help you feel
-relaxed and reduce pain. Your surgeon will then administer an injection of
-numbing medicine to block pain in the local area of your surgery. Although
-you are not completely asleep, it is likely you will not remember the surgery.</p>
+      anesthesiologist for your surgery.</p>
+      <ol>
+        <li>
+          <b>Monitored Anesthetic Care</b>
+          <p>You will be given intravenous sedation and pain medicine to help you feel
+            relaxed and reduce pain. Your surgeon will then administer an injection of
+            numbing medicine to block pain in the local area of your surgery. Although
+          you are not completely asleep, it is likely you will not remember the surgery.</p>
 
-      <p>Your anesthesiologist will remain with you and continuously monitor your
-status to ensure your comfort and safety.</p>
+          <p>Your anesthesiologist will remain with you and continuously monitor your
+          status to ensure your comfort and safety.</p>
+        </li>
+        <li>
+          <b>Regional Anesthesia</b>
+          <p>An injection of numbing medicine is administered by your anesthesiologist to
+            block nerves. This may include blocking the nerves to an extremity or a
+            larger area. An epidural block for childbirth is another example of a regional
+            anesthetic. Regional anesthesia may also be combined with sedation or a
+            general anesthetic. This type of anesthetic is also used to provide pain
+            control after the surgery when long lasting medications are used or a
+          catheter is left in place after the surgery.</p>
+        </li>
+        <li>
+          <b>General Anesthesia</b>
+          <p>You are completely unconscious and asleep for the surgery.</p>
+        </li>
+      </ol>
 
-      <h3>Regional Anesthesia</h3>
-      <p>An injection of numbing medicine is administered by your anesthesiologist to
-block nerves. This may include blocking the nerves to an extremity or a
-larger area. An epidural block for childbirth is another example of a regional
-anesthetic. Regional anesthesia may also be combined with sedation or a
-general anesthetic. This type of anesthetic is also used to provide pain
-control after the surgery when long lasting medications are used or a
-catheter is left in place after the surgery.</p>
-      
-      <h3>General Anesthesia</h3>
-      <p>You are completely unconscious and asleep for the surgery.</p>
-      
       <h3>At Home</h3>
       <p>You will be asked to fast before your surgery so your stomach is empty when
-your anesthetic is administered. Frequently, you will be asked to have
-nothing to eat or drink starting at midnight on the day of your surgery. Even
-if your surgery is scheduled for later in the day, please follow the fasting
-instructions you receive at your pre-op visit as your actual surgery time may
-change.</p>
+        your anesthetic is administered. Frequently, you will be asked to have
+        nothing to eat or drink starting at midnight on the day of your surgery. Even
+        if your surgery is scheduled for later in the day, please follow the fasting
+        instructions you receive at your pre-op visit as your actual surgery time may
+      change.</p>
       
       <h3>At St. Mark's Hospital</h3>
       <p>You will be transported from Ambulatory Care to the Operating Room in a
-hospital bed or stretcher. You will meet your anesthesiologist in the Pre-
-operative Holding Area. We will ask you questions about your medical,
-anesthetic and surgical histories. We will discuss your specific anesthetic plan
-and answer all questions you may have. You will also meet your Operating
-Room nurse and have the opportunity to speak with your surgeon or their
-assistant before you are transported to the operating room.</p>
+        hospital bed or stretcher. You will meet your anesthesiologist in the Pre-
+        operative Holding Area. We will ask you questions about your medical,
+        anesthetic and surgical histories. We will discuss your specific anesthetic plan
+        and answer all questions you may have. You will also meet your Operating
+        Room nurse and have the opportunity to speak with your surgeon or their
+      assistant before you are transported to the operating room.</p>
 
       <p>Please see the following link to the American Society of Anesthesiologists
-website for more information about Anesthesiologists and anesthesia.</p>
+      website for more information about Anesthesiologists and anesthesia.</p>
 
       <p>
         <a href="http://www.LifelineToModernMedicine.com/">http://www.LifelineToModernMedicine.com/</a>
@@ -123,7 +129,7 @@ website for more information about Anesthesiologists and anesthesia.</p>
 
     </div>  
 
-    <div class="container-fluid bg-grey" id="billing">
+    <div class="container-fluid" id="billing">
       <h1>Billing Contact</h1>
       <div class="col-sm-8">
         <p>
@@ -153,7 +159,7 @@ website for more information about Anesthesiologists and anesthesia.</p>
   </div>
 
   <script>
-  $(document).ready(function(){
+    $(document).ready(function(){
     // Add smooth scrolling to all links in navbar + footer link
     $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
       // Make sure this.hash has a value before overriding default behavior
@@ -169,13 +175,13 @@ website for more information about Anesthesiologists and anesthesia.</p>
         $('html, body').animate({
           scrollTop: $(hash).offset().top
         }, 900, function(){
-     
+
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
         });
       } // End if
     });
   })
-  </script>
+</script>
 </body>
 </html>
